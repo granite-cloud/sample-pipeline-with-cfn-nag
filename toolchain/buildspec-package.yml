@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build: 
     commands:
-      - go get github.com/aws/aws-lambda-go/lambda
+      - go get github.com/granite-cloud/aws-lambda-go/lambda
       - go vet .
   build:
     commands:
