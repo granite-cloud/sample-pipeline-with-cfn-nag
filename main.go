@@ -7,7 +7,7 @@ import (
 
 func Handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 	return events.APIGatewayProxyResponse{
-		Body:       "Hello world!",
+		Body:       "Hello Test!",
 		StatusCode: 200,
 	}, nil
 }
